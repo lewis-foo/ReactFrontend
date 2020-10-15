@@ -1,0 +1,30 @@
+.loader{
+top :0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+#root{
+  width: 100vw;
+  height: 100vh;
+   max-width:100%;  /* added */
+}
+
+.test{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+.breadcrumb:before {
+    color: #00ff00 !important;
+}
